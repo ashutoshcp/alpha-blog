@@ -11,7 +11,7 @@ Metrics/BlockLength:
   Enabled: true
   Include:
     - app/**/*
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: true
   Include:
     - app/**/*
