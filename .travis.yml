@@ -1,6 +1,6 @@
 script:
   - echo 'Code checking...'
-  - RAILS_ENV=development rubocop  --parallel -l
+  - RAILS_ENV=development bundle exec rubocop  --parallel -l
   - echo 'code checking completed'
   - echo 'Test Cases running step...'
   - RAILS_ENV=test bundle exec rspec spec/
