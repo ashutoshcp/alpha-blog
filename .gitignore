@@ -21,3 +21,12 @@
 /yarn-error.log
 
 .byebug_history
+
+.rakeTasks
+.generators
+.idea/
+vendor/
+log/
+tmp/*
+*.log
+.bundle/

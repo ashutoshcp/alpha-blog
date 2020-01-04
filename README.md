@@ -1,1 +1,1 @@
-# first alpha-blog repo
+# First alpha-blog repo
