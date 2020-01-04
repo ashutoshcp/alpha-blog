@@ -1,16 +1,7 @@
-stages:
-  - code_check
-  - code_test
-
-code_check:
-  script:
-    - echo 'Code checking...'
-    - rubocop  --parallel -l
-    - - echo 'code checking completed'
-
-
-code_test:
-  script:
-    - echo 'Test Cases running step...'
-    - RAILS_ENV=test bundle exec rspec spec/
-    - echo 'Test cases completed'
+script:
+  - echo 'Code checking...'
+  - rubocop  --parallel -l
+  - echo 'code checking completed'
+  - echo 'Test Cases running step...'
+  - RAILS_ENV=test bundle exec rspec spec/
+  - echo 'Test cases completed'
