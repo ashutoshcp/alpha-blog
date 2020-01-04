@@ -34,6 +34,8 @@ gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'rubocop'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -45,7 +47,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'sqlite3'
-  gem 'rubocop'
 end
 
 group :development do
