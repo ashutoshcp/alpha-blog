@@ -11,8 +11,6 @@ gem 'activeadmin'
 
 gem 'devise'
 
-gem 'sqlite3'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 
@@ -46,6 +44,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
+  gem 'sqlite3'
 end
 
 group :development do
@@ -58,7 +57,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production, :development, :test do
+group :production do
   gem 'pg'
 end
 
