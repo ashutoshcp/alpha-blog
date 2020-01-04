@@ -1,0 +1,29 @@
+Style/SymbolArray:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+  Max: 25
+Metrics/ModuleLength:
+  CountComments: false
+Metrics/BlockLength:
+  Enabled: true
+  Include:
+    - app/**/*
+Metrics/LineLength:
+  Enabled: true
+  Include:
+    - app/**/*
+Style/ClassAndModuleChildren:
+  Enabled: true
+  Exclude:
+    - test/**/*
+Style/Documentation:
+  Enabled: false
+Style/MixinUsage:
+  Enabled: true
+  Include:
+    - app/**/*
+Style/EmptyMethod:
+  Enabled: false
