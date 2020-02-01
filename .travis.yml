@@ -1,3 +1,6 @@
+env:
+  - OS_TYPE=centos OS_VERSION=7
+
 script:
   - echo 'Code checking...'
   - RAILS_ENV=development bundle exec rubocop  --parallel -l
